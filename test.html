@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- ##Head -->
+<script type="text/javascript" src="https://www.inaturalist.org/attachments/project_assets/653-jquery.jcarousel.min.js?1488411047">
+  
+
+</script>
+<style type="">
+div#ozfish_lead {
+  display: table;
+  width: 310px;
+}
+
+div#ozfish_supporters {
+  display: table;
+  width: 310px;
+}
+
+
+div#ozfish_supporter  {
+  display: table-row;
+
+}
+
+div#ozfish_logo {
+  display: table-cell;
+  width: 150px;
+}
+
+div#ozfish_details {
+  vertical-align: middle;
+  display: table-cell;
+  width: 160px;
+}
+
+img.ozfish_logo_image {
+  max-width: 140px;
+  margin-right 10px;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+/** Carousel **/
+
+.jcarousel {
+    overflow: hidden; /* Hide the images that do not fit the window */
+}
+
+.jcarousel ul {
+    width: 950em; /* Width needs to be fixed but can be any value... */
+    position: relative; /* Needed for scrolling through images */
+    list-style: none; /* Hide the list dots */
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;    
+}
+
+.jcarousel li {
+    float: left;
+
+}
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: 5px;
+    left: 40%;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;    
+    font-size: 11px;
+    line-height: 14px;
+    min-width: 14px;
+    background: #fff;
+    color: #4E443C;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;    
+    margin-right: 2px;
+    opacity: .75;
+}
+
+.jcarousel-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
+
+/** Rollovers **/
+
+.rolloverContainer {
+    position: relative;
+    height: 400px;
+    width: 950px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;    
+}
+
+.rolloverCaption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 130%;
+  color: white;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    );
+  width: 100%;
+  height: 100%;
+}
+
+.rolloverCaption h3, .caption p {
+color: #fff;
+margin: 20px;
+}
+
+.rolloverCaption h3 {
+margin: 20px 20px 10px;
+}
+
+.rolloverCaption p {
+font-size: .9em;
+line-height: 1.5em;
+margin: 0 20px 15px;
+}
+.rolloverCaption a.learn-more {
+padding: 5px 10px;
+background: #08c;
+color: #fff;
+border-radius: 2px;
+-moz-border-radius: 2px;
+font-weight: bold;
+text-decoration: none;
+}
+.rolloverCaption a.learn-more:hover {
+background: #fff;
+color: #08c;
+}
+
+</style>
+</head>
+
+<div id="cover">
+
+  <div class="jcarousel">
+
+    <ul>
+
+      <li class="rolloverContainer fade">
+        <div class="rolloverCaption">
+          <h3>Spot-tail Wrasse, <i>Coris caudimacula</i></h3>
+          <p>photographed by Erik Schloegl</p>
+          <p><a href="http://www.inaturalist.org/observations/4643601" class="learn-more">Learn more</a></p>
+        </div>
+        <img src="https://www.inaturalist.org/attachments/project_assets/659-fish.jpeg?1488495562" />
+      </li>
+
+      <li class="rolloverContainer fade">
+        <div class="rolloverCaption">
+          <h3>Eastern Blue Groper, <i>Achoerodus viridis</i></h3>
+          <p>photographed by Richard Ling</p>
+          <p><a href="http://www.inaturalist.org/observations/4977420" class="learn-more">Learn more</a></p>
+        </div>
+        <img src="https://www.inaturalist.org/attachments/project_assets/660-aviridisrling.jpg?1489451624" />
+      </li>
+
+      <li class="rolloverContainer fade">
+        <div class="rolloverCaption">
+          <h3>Swallowtail Angelfish, <i>Genicanthus melanospilos</i></h3>
+          <p>photographed by Ian Shaw</p>
+          <p><a href="http://www.inaturalist.org/observations/4723161" class="learn-more">Learn more</a></p>
+        </div>
+        <img src="https://www.inaturalist.org/attachments/project_assets/661-genicanishaw.jpg?1489451659" />
+      </li>
+
+      <li class="rolloverContainer fade">
+        <div class="rolloverCaption">
+          <h3>Green Moray, <i>Gymnothorax prasinus</i></h3>
+          <p>photographed by Sascha Schulz</p>
+          <p><a href="http://www.inaturalist.org/observations/5134384" class="learn-more">Learn more</a></p>
+        </div>
+        <img src="https://www.inaturalist.org/attachments/project_assets/662-gprasinusss.jpeg?1489451684 " />
+      </li>
+
+      <li class="rolloverContainer fade">
+        <div class="rolloverCaption">
+          <h3>Balloonfish, <i>Diodon holocanthus</i></h3>
+          <p>photographed by John Turnbull</p>
+          <p><a href="http://www.inaturalist.org/observations/5248212" class="learn-more">Learn more</a></p>
+        </div>
+        <img src="https://www.inaturalist.org/attachments/project_assets/663-porciturn.jpg?1489451712 " />
+      </li>
+
+      <li class="rolloverContainer fade">
+        <div class="rolloverCaption">
+          <h3>Common Seadragon, <i>Phyllopteryx taeniolatus</i></h3>
+          <p>photographed by John Sear</p>
+          <p><a href="http://www.inaturalist.org/observations/4432011" class="learn-more">Learn more</a></p>
+        </div>
+        <img src="https://www.inaturalist.org/attachments/project_assets/664-ptaensear.jpeg?1489451734" />
+      </li>
+
+    </ul>
+
+    <div class="jcarousel-pagination"></div>
+
+  </div>
+
+<!--img src="https://static.inaturalist.org/projects/9358-cover.jpg?1475539455" /-->
+<h1>
+<img id="iconimg" class="custom" src="https://www.inaturalist.org/attachments/projects/icons/9358/thumb/logo.jpg?1480377229" alt="Logo" />
+Australasian fishes
+</h1>
+      
+<a id="addbutton" rel="nofollow" href="/observations/new?project_id=9358">
+<small>Add</small>
+<big>Observations</big>
+</a>
+     
+</div>
+
+<script type="text/javascript">
+
+  // Set up pagination through images
+  (function($) {
+      $(function() {
+          $('.jcarousel').jcarousel();
+          $('.jcarousel-pagination')
+              .on('jcarouselpagination:active', 'a', function() {
+                  $(this).addClass('active');
+              })
+              .on('jcarouselpagination:inactive', 'a', function() {
+                  $(this).removeClass('active');
+              })
+              .jcarouselPagination();
+      });
+  })(jQuery);
+
+
+  // Shuffle the images
+  (function($){
+   
+      $.fn.shuffle = function() {
+   
+          var allElems = this.get(),
+              getRandom = function(max) {
+                  return Math.floor(Math.random() * max);
+              },
+              shuffled = $.map(allElems, function(){
+                  var random = getRandom(allElems.length),
+                      randEl = $(allElems[random]).clone(true)[0];
+                  allElems.splice(random, 1);
+                  return randEl;
+             });
+   
+          this.each(function(i){
+              $(this).replaceWith($(shuffled[i]));
+          });
+   
+          return $(shuffled);
+   
+      };
+   
+  })(jQuery);
+
+  $(document).ready(function() {
+
+    $('.fade').hover(
+      function(){
+        $(this).find('.rolloverCaption').fadeIn(250);
+      },
+      function(){
+        $(this).find('.rolloverCaption').fadeOut(250);
+      }
+    );
+
+  });
+
+  $('.jcarousel')
+      .find('li.rolloverContainer')
+      .shuffle()
+      .end()
+      .jcarousel({
+        wrap: 'last'
+      });
+
+</script>
+
+##Side
+<h2>
+Lead agency
+</h2>
+
+<br/>
+<br/>
+
+<div id="ozfish_lead">
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://australianmuseum.net.au/" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/618-logo_am.png?1480377612" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/318428" target=”_blank”>
+Mark McGrouther
+</a>
+<br/>
+<a href="/users/353443" target=”_blank”>
+Amanda Hay
+</a>
+
+</div>
+</div>
+</div><!-- end of lead organisations-->
+
+<br/>
+
+<h2>
+Project sponsors
+</h2>
+
+<br/>
+<br/>
+
+<div id="ozfish_supporters">
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://australianmuseum.net.au/lizard-island-research-station" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/619-logo_lirs.png?1480457963" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/360494" target=”_blank”>
+Anne Hoggett
+</a>
+</div>
+</div>
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://www.antarctica.gov.au/" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/670-logo_AAD.jpg?1490745375" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/435022" target=”_blank”>
+Dale Maschette
+</a>
+</div>
+</div>
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://appliedecology.edu.au/people/peter-unmack/" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/639-logo_IAE.jpg?1486690743" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/355236" target=”_blank”>
+Peter Unmack
+</a>
+</div>
+</div>
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://www.aucklandmuseum.com/" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/648-logo_awmm.png?1488256765" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/85403" target=”_blank”>
+Tom Trnski
+</a>
+</div>
+</div>
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://www.cmar.csiro.au/anfc/" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/621-logo_CSIRO.jpg?1480638083" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/360726" target=”_blank”>
+John Pogonoski
+</a>
+</div>
+</div>
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="https://fishthinkers.wordpress.com/" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/737-logo_ft.png?1515622873" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/408336" target=”_blank”>
+Lachlan Fetterplace
+</a>
+</div>
+</div>
+
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://www.marineexplorer.org/Home.aspx" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/622-logo_MarineExplorer.jpg?1480769377" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/24009" target=”_blank”>
+John Turnbull
+</a>
+</div>
+</div>
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://www.magnt.net.au/" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/681-logo_NTM.jpg?1493352182" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/356867" target=”_blank”>
+Gavin Dally
+</a>
+</div>
+</div>
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://www.qm.qld.gov.au/" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/626-logo_qm.jpg?1483682377 " />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/361810" target=”_blank”>
+Jeff Johnson
+</a>
+</div>
+</div>
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://www.setfia.org.au/" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/624-logo_SETFIA.jpg?1480903203" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/379396" target=”_blank”>
+Simon Boag
+</a>
+</div>
+</div>
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://www.samuseum.sa.gov.au/collections/biological-sciences/fish" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/673-logo_SAM.jpg?1490833209" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/388888" target=”_blank”>
+Ralph Foster
+</a>
+</div>
+</div>
+
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://www.surg.org.au/" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/629-logo_SURG.jpg?1485325004" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/376665" target=”_blank”>
+Ralfmagee (Ian Shaw)
+</a>
+</div>
+</div>
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://sydney.edu.au/museums/collections/macleay.shtml" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/633-logo_macleaymus.jpg?1486359532" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/349174" target=”_blank”>
+Anthony Gill (Macleay Museum)
+</a>
+</div>
+</div>
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="https://www.tepapa.govt.nz/" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/697-logo_tepapa.jpg?1504498000 2" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/413895" target=”_blank”>
+Carl Struthers
+</a>
+</div>
+</div>
+
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://www.urgdiveclub.org.au/" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/620-logo_URG.jpg?480635564" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/360494" target=”_blank”>
+Rianti Bieler
+</a>
+</div>
+</div>
+
+<div id="ozfish_supporter">
+<div id="ozfish_logo">
+<a href="http://museum.wa.gov.au/" target=”_blank”>
+<img class="ozfish_logo_image" src="/attachments/project_assets/640-logo_WAM.jpg?1486690770" />
+</a>
+</div>
+<div id="ozfish_details">
+<a href="/users/399556" target=”_blank”>
+Glenn Moore
+</a>
+</div>
+</div>
+
+</div>
+
+
+</body>
+</html>
+
