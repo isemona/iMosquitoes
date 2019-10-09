@@ -1,0 +1,68 @@
+body {
+  font-family: Whitney,"Trebuchet MS",Arial,sans-serif;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 15px;
+}
+.scene {
+  width: 400px;
+  height: 350px;
+  margin: 40px 0;
+  perspective: 600px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #74AD2E;
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  background: #E9F3DA;
+  color: #74AD2E;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 260px;
+  text-align: center;
+}
+
+.card__face--back {
+  background: #74AD2E;
+  color: #E9F3DA;
+  transform: rotateY(180deg);
+  text-align: -webkit-left;
+  font-size: 15px;
+}
+
+.content-text {
+  margin: 0 auto;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 7%;
+  line-height: 1.5em;
+}
+
+.btn-show {
+  display: block;
+}
