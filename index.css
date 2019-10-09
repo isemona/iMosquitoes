@@ -10,7 +10,6 @@ body {
 .scene {
   width: 360px;
   height: 300px;
-  border: 1px solid #CCC;
   margin: 40px 0;
   perspective: 600px;
 }
