@@ -5,11 +5,11 @@ body {
 .grid-container {
   display: inline-grid;
   grid-template-columns: auto auto auto;
-  grid-column-gap: 10px;
+  grid-column-gap: 15px;
 }
 .scene {
-  width: 360px;
-  height: 300px;
+  width: 400px;
+  height: 350px;
   margin: 40px 0;
   perspective: 600px;
 }
@@ -38,7 +38,7 @@ body {
   background: #E9F3DA;
   color: #74AD2E;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 260px;
   text-align: center;
 }
@@ -48,13 +48,14 @@ body {
   color: #E9F3DA;
   transform: rotateY(180deg);
   text-align: -webkit-left;
+  font-size: 15px;
 }
 
 .content-text {
   margin: 0 auto;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 15%;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 7%;
   line-height: 1.5em;
 }
 
